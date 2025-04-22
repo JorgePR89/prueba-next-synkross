@@ -8,6 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>User List Synkross</title>
       <body>{children}</body>
     </html>
   );

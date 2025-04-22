@@ -2,5 +2,12 @@ export interface User {
   id: number;
   name: string;
   email: string;
-  created_at: Date;
+}
+
+export interface ListPaginated {
+  items: Array<User >;
+  pages: number;
+  currentPage: number;
+  itemsPage: number;
+  totalItems: number;
 }

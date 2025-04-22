@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.currentPage {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 3px;
+    margin: calc(var(--spacing) * 3);
+}
+
+.otherPages {
+    background-color: black;
+    margin: calc(var(--spacing) * 3);
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+}
